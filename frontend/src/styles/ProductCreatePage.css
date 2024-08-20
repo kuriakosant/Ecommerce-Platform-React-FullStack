@@ -1,0 +1,47 @@
+.product-create-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #dddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-create-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-create-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-create-form button:hover {
+  background-color: #0056b3;
+}
+
+.back-to-shop-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-shop-button:hover {
+  background-color: #218838;
+}

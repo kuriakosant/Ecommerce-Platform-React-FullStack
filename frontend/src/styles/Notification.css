@@ -1,0 +1,26 @@
+/* src/styles/Notification.css */
+.notification {
+  position: fixed;
+  top: 300;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  border-radius: 4px;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  margin-right: 8px;
+}
+
+.notification-timer {
+  width: 100%;
+  height: 4px;
+  background-color: #66bb6a;
+  position: relative;
+  top: 10px;
+}

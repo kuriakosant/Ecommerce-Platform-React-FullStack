@@ -1,0 +1,63 @@
+.remove-notification {
+    position: fixed;
+    top: 220px; /* Adjust as needed */
+    right: 20px;
+    background-color: #dc3545; /* Red background for removal notification */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeOut 2s forwards;
+  }
+  
+  .remove-notification .message {
+    margin-bottom: 10px;
+  }
+  
+  .remove-notification .progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .remove-notification .progress-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    animation: progressBar 2s linear forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes progressBar {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  

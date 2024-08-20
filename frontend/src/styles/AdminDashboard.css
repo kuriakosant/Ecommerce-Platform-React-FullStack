@@ -1,0 +1,39 @@
+.admin-dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #3f3a3add;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 80vh;
+  }
+  
+  .users-container {
+    margin-top: 20px;
+  }
+  
+  .user-info-box {
+    padding: 10px;
+    border: 1px solid #131010;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: #230636;
+  }
+  
+  .user-info-box p {
+    margin: 5px 0;
+  }
+  
+  .delete-button {
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  

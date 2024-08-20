@@ -1,0 +1,75 @@
+/* src/styles/OrderComplete.css */
+
+.order-complete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #302f2f;
+    color: #333;
+  }
+  
+  .order-success-notification {
+    position: fixed;
+    top: 200px;
+    right: 50px;
+    padding: 30px 60px;
+    background-color: rgb(77, 4, 119);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    animation: fadeOut 4s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+  }
+  
+  .order-complete-box {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .order-complete-box-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-complete-buttons {
+    margin-top: 20px;
+  }
+  
+  .order-complete-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .view-orders {
+    background-color: purple;
+  }
+  
+  .back-to-shop {
+    background-color: blue;
+  }
+  
+  .view-orders:hover {
+    background-color: darkpurple;
+  }
+  
+  .back-to-shop:hover {
+    background-color: darkblue;
+  }
+  

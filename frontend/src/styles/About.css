@@ -1,0 +1,54 @@
+.about-container {
+  text-align: center;
+  color: #fff;
+  background-image: url('../assets/home-background.jpg'); /* Use absolute path */
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align items at the top */
+}
+
+.about-background {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  margin-top: 3rem; /* Add margin to push it down slightly */
+}
+
+.title {
+  font-size: 4rem; /* Increased font size */
+  margin-bottom: 1rem;
+  color: #fff; /* Ensure text is white */
+}
+
+.subtitle {
+  font-size: 2rem; /* Increased font size */
+  margin-bottom: 2rem;
+  color: #fff; /* Ensure text is white */
+}
+
+.description {
+  font-size: 1.75rem; /* Increased font size */
+  margin-bottom: 2rem;
+  color: #fff; /* Ensure text is white */
+}
+
+.contact-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem; /* Increased font size */
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #11133a;
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.navbar-contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 1rem;
+}
+
+.navbar-contact p {
+  font-size: 1.5rem; /* Increased font size */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -5px; /* Move the text slightly higher */
+}
+
+.navbar-contact .icon {
+  font-size: 1.5rem; /* Increased icon size */
+}
+
+.navbar-contact .envelope-icon {
+  margin-left: 2rem; /* Adds space between phone number and email */
+}
+
+.navbar-center-wrapper {
+  background-color: #232429; /* Gray background for "My E-Shop" section */
+  padding: 0.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-center-wrapper:hover {
+  background-color: #292c33; /* Change background color on hover */
+  transform: translateY(-5px); /* Slightly raise the section on hover */
+}
+
+.navbar-center h1 {
+  font-size: 2.5rem; /* Increased font size for My E-Shop */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-center .home-icon {
+  position: relative;
+  top: 5px; /* Move the home icon slightly lower */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.navbar-right a {
+  font-size: 1.5rem; /* Increased font size */
+  margin: 0 0.5rem;
+  color: #fff;
+}
+
+.navbar-right .cart-icon,
+.navbar-right .profile-icon {
+  font-size: 1.8rem; /* Increased icon size */
+  cursor: pointer;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-user {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.navbar-user .static-icon {
+  font-size: 1.2rem; /* Slightly larger static icon */
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.navbar-menu a {
+  font-size: 1.3rem;
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Transition for pop up effect */
+}
+
+.navbar-menu a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  transform: translateY(-5px); /* Slightly raise the link on hover */
+}
+
+.admin-dashboard-button {
+  background-color: #dc3545;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: -10px; /* Bring the button 10 pixels higher */
+}
+
+.admin-dashboard-button:hover {
+  background-color: #c82333; /* Change background color on hover */
+  transform: translateY(-5px); /* Slightly raise the button on hover */
+}
