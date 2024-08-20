@@ -146,8 +146,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries, please contact:
 
 - **Name:** [Kyriakos Antoniadis]
-- **Email:** [kuriakosant2003@gmail.com ]
-- **LinkedIn:** []
+- **Email:** [ kuriakosant2003@gmail.com ]
+- **LinkedIn:** [https://www.linkedin.com/in/kyriakos-antoniadis-778652310/]
 
 ---
 
