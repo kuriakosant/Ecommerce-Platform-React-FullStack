@@ -147,7 +147,7 @@ For any inquiries, please contact:
 
 - **Name:** [Kyriakos Antoniadis]
 - **Email:** [kuriakosant2003@gmail.com ]
-- **LinkedIn:** []
+- **LinkedIn:** [https://www.linkedin.com/in/kyriakos-antoniadis-778652310/]
 
 ---
 
