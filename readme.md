@@ -1,4 +1,4 @@
-# My E-Shop - Thesis Project
+# My E-Shop - Ecommerce Project Intended for Bachelor Thesis at RAU university 2024.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -17,7 +17,7 @@
 
 ## Introduction
 
-My E-Shop is a full-stack web application developed as part of my thesis project. The application provides a seamless online shopping experience where users can browse a wide range of clothing items, add products to their cart, and complete purchases. Administrators have the ability to manage products, user accounts, and monitor orders through an integrated admin dashboard.
+My E-Shop is a full-stack web application developed as part of my thesis project. The application provides a seamless online shopping experience where users can browse a wide range of clothing items, add products to their cart, complete purchases as well as manage their orders. Administrators have the ability to manage products, user accounts, and monitor orders through an integrated admin dashboard.
 
 This project is designed to demonstrate a comprehensive understanding of modern web development technologies, including frontend frameworks, backend servers, database management, and secure user authentication.
 
@@ -60,7 +60,7 @@ Follow these instructions to set up the project locally on your machine.
 
 1. **Clone the repository:**
    ```bash
-   git clone 
+   git clone https://github.com/kuriakosant/Full-Stack-React-Ecommerce-Thesis-v1
    cd ../backend
 
 
@@ -69,9 +69,10 @@ Follow these instructions to set up the project locally on your machine.
    npm install
 
 3. **Configure environment variables::**
-   Create a .env file in the backend directory with the following content:
+   Edit the .env file in the backend directory with the following content, 
+   -generate your JWT token through the script in  ../backend/utils:
+   -Copy and paste your mongodb connection string from mongodb compass:
    ```env
-      NODE_ENV=development
       PORT=5000
       MONGO_URI=your_mongodb_connection_string
       JWT_SECRET=your_jwt_secret
@@ -119,7 +120,7 @@ The application will be accessible at http://localhost:3000.
 
 ## Admin Access
 
-To access the admin dashboard, log in using the following credentials:
+To access the admin dashboard and manage and create products, log in using the following credentials:
 
 - **Email:** `admin@gmail.com`
 - **Password:** `123456`
