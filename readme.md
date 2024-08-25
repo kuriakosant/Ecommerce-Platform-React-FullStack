@@ -121,14 +121,10 @@ This project is built using the MERN stack, which stands for MongoDB, Express.js
 -  **MongoDB Compass**: For managing the MongoDB database.
 
   
-
 ## Installation Guide
-
-  
 
 Follow these instructions to set up the project locally on your machine.
 
-  
 
 ### Prerequisites
 
@@ -136,17 +132,14 @@ Follow these instructions to set up the project locally on your machine.
 
 -  **MongoDB**: Install MongoDB locally or have access to a MongoDB cloud instance.
 
-  
-
 ### Backend Setup
-
-  
 
 1.  **Clone the repository:**
 
 `git clone https://github.com/kuriakosant/Full-Stack-React-Ecommerce-Thesis-v1`
 
 `cd ../backend`
+
 2.  **Install backend dependencies:**
 
 `npm install`
