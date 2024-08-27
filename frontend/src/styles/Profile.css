@@ -62,7 +62,7 @@
   background-image: url('../assets/profile_background.png');
   background-size: cover;
   background-position: center;
-  padding-top: 20px; /* Adjust padding to bring content higher */
+  padding-top: 80px; /* Adjust padding to bring content higher */
 }
 
 .not-logged-in-box {
