@@ -1,18 +1,17 @@
 /* Login.css and Register.css */
 .auth-container {
-  margin-top: 0px; /* Reset margin to bring the container to the top */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Align items at the start of the container */
   min-height: 100vh;
-  padding: 20px;
+  padding: 0; /* Remove any padding that could be pushing the content down */
   background-color: #333;
   color: white;
 }
 
 .form-container {
-  margin-top: 20px; /* Move the form container even higher up */
+  margin: 0; /* Ensure no margin at the top */
   max-width: 400px;
   width: 100%;
   background-color: #000;

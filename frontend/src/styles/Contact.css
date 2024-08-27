@@ -1,25 +1,27 @@
+/* Contact.css */
 .form-container {
-  margin-top: 200px; /* Move the form container higher up */
+  margin-top: 0px; /* Remove any top margin */
   max-width: 600px; /* Increase the form width */
-  margin: 0 auto;
+  margin: 0 auto; /* Center the container */
   padding: 2rem;
   background-color: #1f1f1f;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  min-height: 100vh; /* Ensure the container takes the full height of the viewport */
 }
 
 .form-container h1 {
   text-align: center;
   color: #fff;
   margin-bottom: 1rem;
-  justify-content: flex-start;
 }
 
 .form-container form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
 
 .form-container label {
