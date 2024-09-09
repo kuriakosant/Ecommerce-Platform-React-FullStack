@@ -1,5 +1,5 @@
 
-# My E-Shop - Ecommerce Project Intended for Bachelor Thesis at RAU university 2024.
+# My E-Shop - Full-Stack MERN Ecommerce Platform Project Intended for Bachelor Thesis at RAU university 2024.
 
   
 
